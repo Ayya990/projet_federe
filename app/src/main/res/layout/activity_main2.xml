@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:gravity="center|left"
         android:text="Etudiant"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="645dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
