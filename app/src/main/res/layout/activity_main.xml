@@ -43,7 +43,7 @@
         android:layout_width="235dp"
         android:layout_height="80dp"
         android:gravity="center"
-        android:text="login"
+        android:text="Login"
         android:textColor="#776CFE"
         android:textSize="48sp"
         android:textStyle="bold|italic"
