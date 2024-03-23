@@ -24,7 +24,6 @@
         android:ems="10"
         android:hint="tapez votre addresse"
         android:inputType="text"
-        android:text="Name"
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="444dp" />
 
