@@ -45,7 +45,7 @@
         android:layout_width="222dp"
         android:layout_height="46dp"
         android:background="@drawable/background_button"
-        android:text="next"
+        android:text="Let's start"
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="521dp" />
 
