@@ -17,7 +17,7 @@
         android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="100dp"
-        android:text="Elevate your learning experience ."
+        android:text="Elevate your learning experience."
         android:textSize="34dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="19dp"
