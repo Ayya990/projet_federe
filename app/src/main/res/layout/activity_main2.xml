@@ -11,19 +11,10 @@
         android:id="@+id/button3"
         android:layout_width="222dp"
         android:layout_height="46dp"
-        android:background="@drawable/background_button"
-        android:text="login"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="577dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="222dp"
-        android:layout_height="46dp"
-        android:background="@drawable/background_button"
+        android:background="@drawable/backtext"
         android:text="sign up"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="669dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="563dp" />
 
     <androidx.cardview.widget.CardView
         app:cardBackgroundColor="@color/violet"
@@ -44,14 +35,13 @@
             android:foregroundGravity="center"
             app:srcCompat="@drawable/etudiant" />
 
-        <Button
-            android:id="@+id/button"
+        <RadioButton
+            android:id="@+id/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="39dp"
-            android:layout_marginTop="160dp"
-            android:gravity="center|left"
-            android:text="Etudiant" />
+            android:background="#6750A3"
+            android:gravity="center"
+            android:text="ETUDIANT" />
 
     </androidx.cardview.widget.CardView>
 
@@ -102,5 +92,14 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Etudiant"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="175dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
