@@ -7,6 +7,7 @@
     tools:context=".ui.login">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -22,6 +23,8 @@
         android:text="Button"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="272dp" />
+=======
+>>>>>>> 2349fa3 (supprimer et creer new java andd xml)
 =======
 >>>>>>> 2349fa3 (supprimer et creer new java andd xml)
 </androidx.constraintlayout.widget.ConstraintLayout>
