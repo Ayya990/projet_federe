@@ -43,6 +43,16 @@
             android:gravity="center"
             android:text="ETUDIANT" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center|left"
+            android:text="Etudiant" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -64,7 +74,7 @@
             app:srcCompat="@drawable/professeur__5_" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -92,14 +102,5 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="42dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center|left"
-        android:text="Etudiant"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="645dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
