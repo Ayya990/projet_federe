@@ -5,4 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+<<<<<<< HEAD
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="222dp"
+        android:layout_height="46dp"
+        android:background="@drawable/backtext"
+        android:text="login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="222dp"
+        android:layout_height="46dp"
+        android:background="@drawable/backtext"
+        android:text="sign up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="458dp"
+        android:layout_height="784dp"
+        app:srcCompat="@drawable/_495457"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-246dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+=======
     tools:context=".MainActivity3"/>
+>>>>>>> origin/main
