@@ -8,14 +8,6 @@
     android:autofillHints="tapz"
     tools:context=".MainActivity2">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="233dp"
-        android:layout_height="247dp"
-        app:srcCompat="@drawable/user"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="171dp" />
-
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="225dp"
@@ -36,17 +28,5 @@
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="94dp"
         tools:layout_editor_absoluteY="505dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="235dp"
-        android:layout_height="80dp"
-        android:gravity="center"
-        android:text="Login"
-        android:textColor="#776CFE"
-        android:textSize="48sp"
-        android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="72dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
