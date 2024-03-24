@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-<<<<<<< HEAD
     tools:context=".MainActivity3">
 
     <Button
@@ -38,6 +37,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-=======
-    tools:context=".MainActivity3"/>
->>>>>>> origin/main
