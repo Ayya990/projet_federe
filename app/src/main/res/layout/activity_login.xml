@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/colorPrimary"
+    android:background="@color/cardview_light_background"
     android:focusableInTouchMode="true"
     android:gravity="center"
     tools:context="com.appsnipp.modernlogin.LoginActivity">
@@ -94,7 +94,7 @@
             <Button
                 android:id="@+id/button"
                 style="@style/loginButton"
-                android:layout_width="242dp"
+                android:layout_width="222dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/loginViewsMargin"
