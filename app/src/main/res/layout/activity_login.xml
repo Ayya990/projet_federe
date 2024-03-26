@@ -11,13 +11,13 @@
     tools:context="com.appsnipp.modernlogin.LoginActivity">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="411dp"
+        android:layout_height="732dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="8dp"
         android:paddingTop="20dp">
 
         <LinearLayout
@@ -28,14 +28,16 @@
             android:padding="20dp">
 
             <RelativeLayout
-                android:layout_width="360dp"
-                android:layout_height="235dp">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Already \nhave an \nAccount?" />
+                    android:text="Already \nhave an \nAccount?"
+                    android:textColor="#4F2F8E"
+                    android:textColorHighlight="#4F2F8E" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -49,7 +51,7 @@
                 android:id="@+id/textView2"
                 style="@style/parent"
                 android:layout_width="match_parent"
-                android:layout_height="33dp"
+                android:layout_height="wrap_content"
                 android:text="Email"
                 android:textColor="@color/colorAccent" />
 
@@ -57,7 +59,8 @@
                 android:id="@+id/editTextTextEmailAddress"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="54dp"
+                android:backgroundTint="@color/colorAccent"
                 android:ems="10"
                 android:hint="@string/login_email_hint"
                 android:inputType="textEmailAddress"
@@ -67,7 +70,7 @@
                 android:id="@+id/textView3"
                 style="@style/parent"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:text="Password"
                 android:textColor="@color/colorAccent" />
@@ -76,7 +79,8 @@
                 android:id="@+id/editTextTextPassword"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/colorAccent"
                 android:ems="10"
                 android:hint="@string/login_password_hint"
                 android:inputType="textPassword"
@@ -84,13 +88,11 @@
 
             <TextView
                 style="@style/viewParent"
-                android:layout_width="128dp"
-                android:layout_height="31dp"
                 android:layout_gravity="end"
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="10dp"
                 android:text="Forgot Password?"
-                android:textColor="@color/primaryTextColor"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/newsMoreTextSize" />
 
             <Button
@@ -113,7 +115,7 @@
                 android:onClick="onLoginClick"
                 android:text="New user? Register Now"
                 android:textAlignment="center"
-                android:textColor="@color/themeColor"
+                android:textColor="@color/colorAccent"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -128,7 +130,7 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark" />
+                    android:background="@color/colorAccent" />
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
@@ -137,13 +139,14 @@
                     android:layout_weight="6"
                     android:text="Use other Methods"
                     android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp" />
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark" />
+                    android:background="@color/colorAccent" />
 
             </LinearLayout>
 
