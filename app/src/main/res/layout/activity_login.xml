@@ -11,6 +11,7 @@
     tools:context="com.appsnipp.modernlogin.LoginActivity">
 
     <ScrollView
+<<<<<<< HEAD
         android:layout_width="411dp"
         android:layout_height="732dp"
         android:layout_alignParentLeft="true"
@@ -18,6 +19,15 @@
         android:layout_centerInParent="true"
         android:layout_marginLeft="-7dp"
         android:layout_marginTop="8dp"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="52dp"
+>>>>>>> origin/main
         android:paddingTop="20dp">
 
         <LinearLayout
@@ -28,8 +38,13 @@
             android:padding="20dp">
 
             <RelativeLayout
+<<<<<<< HEAD
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+=======
+                android:layout_width="360dp"
+                android:layout_height="235dp">
+>>>>>>> origin/main
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
@@ -49,7 +64,11 @@
                 android:id="@+id/textView2"
                 style="@style/parent"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
+=======
+                android:layout_height="33dp"
+>>>>>>> origin/main
                 android:text="Email"
                 android:textColor="@color/colorAccent" />
 
@@ -57,7 +76,11 @@
                 android:id="@+id/editTextTextEmailAddress"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="54dp"
+=======
+                android:layout_height="70dp"
+>>>>>>> origin/main
                 android:ems="10"
                 android:hint="@string/login_email_hint"
                 android:inputType="textEmailAddress"
@@ -67,7 +90,11 @@
                 android:id="@+id/textView3"
                 style="@style/parent"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
+=======
+                android:layout_height="40dp"
+>>>>>>> origin/main
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:text="Password"
                 android:textColor="@color/colorAccent" />
@@ -76,7 +103,11 @@
                 android:id="@+id/editTextTextPassword"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="50dp"
+=======
+                android:layout_height="62dp"
+>>>>>>> origin/main
                 android:ems="10"
                 android:hint="@string/login_password_hint"
                 android:inputType="textPassword"
@@ -84,6 +115,11 @@
 
             <TextView
                 style="@style/viewParent"
+<<<<<<< HEAD
+=======
+                android:layout_width="128dp"
+                android:layout_height="31dp"
+>>>>>>> origin/main
                 android:layout_gravity="end"
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="10dp"
@@ -175,6 +211,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginRight="0dp"
         android:background="@drawable/ic_side_bg" />
+<<<<<<< HEAD
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -183,5 +220,16 @@
         android:layout_marginLeft="348dp"
         android:layout_marginTop="650dp"
         app:srcCompat="@drawable/ic_add_img" />
+=======
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_img"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="onLoginClick"/>
+>>>>>>> origin/main
 
 </RelativeLayout>
