@@ -17,6 +17,7 @@
         android:id="@+id/sign"
         android:layout_width="222dp"
         android:layout_height="46dp"
+        android:background="@drawable/background_button"
         android:text="Let's start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

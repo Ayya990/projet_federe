@@ -16,8 +16,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="-7dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-16dp"
         android:paddingTop="20dp">
 
         <LinearLayout
@@ -35,7 +35,9 @@
                     style="@style/viewParent.headerText.NoMode"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Already \nhave an \nAccount?" />
+                    android:text="Already \nhave an \nAccount?"
+                    android:textColor="#4F2F8E"
+                    android:textColorHighlight="#4F2F8E" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -58,6 +60,7 @@
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
+                android:backgroundTint="@color/colorAccent"
                 android:ems="10"
                 android:hint="@string/login_email_hint"
                 android:inputType="textEmailAddress"
@@ -77,6 +80,7 @@
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/colorAccent"
                 android:ems="10"
                 android:hint="@string/login_password_hint"
                 android:inputType="textPassword"
@@ -88,7 +92,7 @@
                 android:layout_marginLeft="250dp"
                 android:layout_marginTop="10dp"
                 android:text="Forgot Password?"
-                android:textColor="@color/primaryTextColor"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/newsMoreTextSize" />
 
             <Button
@@ -111,7 +115,7 @@
                 android:onClick="onLoginClick"
                 android:text="New user? Register Now"
                 android:textAlignment="center"
-                android:textColor="@color/themeColor"
+                android:textColor="@color/colorAccent"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -126,7 +130,7 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark" />
+                    android:background="@color/colorAccent" />
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
@@ -135,13 +139,14 @@
                     android:layout_weight="6"
                     android:text="Use other Methods"
                     android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
                     android:textSize="12sp" />
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="3"
-                    android:background="@color/colorPrimaryDark" />
+                    android:background="@color/colorAccent" />
 
             </LinearLayout>
 
