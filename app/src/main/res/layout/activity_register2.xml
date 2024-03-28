@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.RegisterActivity2"
@@ -41,20 +44,23 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
+                    android:layout_marginTop="-15dp"
+                    android:layout_marginRight="4dp"
                     android:src="@drawable/ic_login_hero" />
+
             </RelativeLayout>
 
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="385dp"
-                android:layout_height="461dp"
+                android:layout_width="501dp"
+                android:layout_height="558dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="40dp"
                 app:cardBackgroundColor="@color/whiteTextColor"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
-                    android:layout_width="365dp"
-                    android:layout_height="441dp"
+                    android:layout_width="369dp"
+                    android:layout_height="531dp"
                     android:layout_margin="10dp"
                     android:orientation="vertical">
 
@@ -67,11 +73,6 @@
                         android:inputType="textPersonName"
                         android:maxLines="1" />
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/radio"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin" />
-
                     <EditText
                         android:id="@+id/editTextEmail"
                         style="@style/modifiedEditText"
@@ -80,14 +81,6 @@
                         android:hint="@string/login_email_hint"
                         android:inputType="textEmailAddress"
                         android:maxLines="1" />
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputEmail"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                    </com.google.android.material.textfield.TextInputLayout>
-
 
                     <EditText
                         android:id="@+id/editTextMobile"
@@ -98,13 +91,6 @@
                         android:inputType="phone"
                         android:maxLines="1" />
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputMobile"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                    </com.google.android.material.textfield.TextInputLayout>
-
                     <EditText
                         android:id="@+id/editTextPassword"
                         style="@style/modifiedEditText"
@@ -114,23 +100,75 @@
                         android:inputType="textPassword"
                         android:maxLines="1" />
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputPassword"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin"/>
+                    <EditText
+                        android:id="@+id/editTextDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorAccent"
+                        android:ems="10"
+                        android:hint="@string/login_birthday_hint"
+                        android:inputType="date"
+                        android:maxLines="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/niveau"
+                            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/type"
+                            app:layout_constraintVertical_bias="0.536">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/auto_compelete_textview2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:inputType="none"
+                                android:text="Niveau" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/type"
+                            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            tools:layout_editor_absoluteX="30dp"
+                            tools:layout_editor_absoluteY="138dp">
+
+                            <AutoCompleteTextView
+                                android:id="@+id/auto_compelete_textview"
+                                android:layout_width="146dp"
+                                android:layout_height="55dp"
+                                android:inputType="none"
+                                android:text="Type" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
 
                     <Button
                         android:id="@+id/button2"
-                        android:layout_width="327dp"
+                        android:layout_width="294dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
                         android:text="Register
-" />
+"
+                        tools:gravity="center" />
 
                     <TextView
                         style="@style/parent"
-                        android:layout_height="35dp"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/loginViewsMargin"
                         android:onClick="onLoginClick"
                         android:text="Already have an account?"
@@ -138,6 +176,34 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="17sp"
                         android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/radio"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputEmail"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputPassword"
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputMobile"
+                        style="@style/parent"
+                        android:layout_height="21dp"
+                        android:layout_marginTop="@dimen/loginViewsMargin">
+
+                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
@@ -197,13 +263,3 @@
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_back_img"
-        android:layout_marginRight="11dp"
-        android:layout_marginBottom="10dp"
-        android:onClick="onLoginClick"
-        android:adjustViewBounds="false"/>
