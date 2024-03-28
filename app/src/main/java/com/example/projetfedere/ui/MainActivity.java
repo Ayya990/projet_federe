@@ -1,14 +1,18 @@
-package com.example.projetfedere;
+package com.example.projetfedere.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class activity_log extends AppCompatActivity {
+import com.example.projetfedere.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log);
+        setContentView(R.layout.activity_main);
+
+
     }
 }
