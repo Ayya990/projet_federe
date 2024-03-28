@@ -8,27 +8,25 @@
     android:autofillHints="tapz"
     tools:context=".MainActivity2">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="270dp" />
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="225dp"
+        android:layout_height="51dp"
+        android:background="@drawable/backtext"
+        android:ems="10"
+        android:hint="tapez votre addresse"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="444dp" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="418dp" />
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:background="@drawable/backtext"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="505dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="89dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
