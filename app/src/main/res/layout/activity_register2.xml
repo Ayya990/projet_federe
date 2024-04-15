@@ -30,7 +30,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="158dp">
 
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
@@ -51,23 +51,23 @@
             </RelativeLayout>
 
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="501dp"
-                android:layout_height="558dp"
+                android:layout_width="387dp"
+                android:layout_height="524dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="40dp"
                 app:cardBackgroundColor="@color/whiteTextColor"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
-                    android:layout_width="369dp"
-                    android:layout_height="531dp"
+                    android:layout_width="374dp"
+                    android:layout_height="512dp"
                     android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <EditText
                         android:id="@+id/editTextName"
                         style="@style/modifiedEditText"
-                        android:layout_height="50dp"
+                        android:layout_height="67dp"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="Name"
                         android:inputType="textPersonName"
@@ -76,7 +76,7 @@
                     <EditText
                         android:id="@+id/editTextEmail"
                         style="@style/modifiedEditText"
-                        android:layout_height="54dp"
+                        android:layout_height="63dp"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="@string/login_email_hint"
                         android:inputType="textEmailAddress"
@@ -85,7 +85,7 @@
                     <EditText
                         android:id="@+id/editTextMobile"
                         style="@style/modifiedEditText"
-                        android:layout_height="53dp"
+                        android:layout_height="65dp"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="Mobile Number"
                         android:inputType="phone"
@@ -103,7 +103,7 @@
                     <EditText
                         android:id="@+id/editTextDate"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="58dp"
                         android:backgroundTint="@color/colorAccent"
                         android:ems="10"
                         android:hint="@string/login_birthday_hint"
@@ -157,13 +157,11 @@
 
                     <Button
                         android:id="@+id/button2"
-                        android:layout_width="294dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="282dp"
+                        android:layout_height="50dp"
                         android:layout_marginTop="10dp"
-                        android:gravity="center_horizontal"
-                        android:text="Register
-"
-                        tools:gravity="center" />
+                        android:layout_gravity="center_horizontal"
+                        android:text="Register" />
 
                     <TextView
                         style="@style/parent"
@@ -173,37 +171,11 @@
                         android:onClick="onLoginClick"
                         android:text="Already have an account?"
                         android:textAlignment="center"
+                        android:layout_gravity="center_horizontal"
                         android:textColor="@color/colorAccent"
                         android:textSize="17sp"
                         android:textStyle="bold" />
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/radio"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin" />
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputEmail"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                    </com.google.android.material.textfield.TextInputLayout>
-
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputPassword"
-                        style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/textInputMobile"
-                        style="@style/parent"
-                        android:layout_height="21dp"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                    </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>
 
