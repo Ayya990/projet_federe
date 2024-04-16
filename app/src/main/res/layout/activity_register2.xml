@@ -26,7 +26,7 @@
             android:layout_marginTop="30dp"
             android:orientation="vertical"
             android:padding="10dp"
-            android:background="">
+            >
 
 
             <RelativeLayout
@@ -163,7 +163,7 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="10dp"
                         android:background="#8159E6"
-                        android:textColor="#ffffff"
+
                         android:text="Register"
                         tools:background="@drawable/button_background_blue" />
 
@@ -204,9 +204,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="6"
                     android:text="Use other Methods"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:textColor="@color/whiteTextColor"
-                    android:textSize="12sp" />
+                    android:textSize="17sp" />
 
                 <View
                     android:layout_width="0dp"
