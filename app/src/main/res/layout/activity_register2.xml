@@ -147,7 +147,7 @@
                             tools:layout_editor_absoluteY="138dp">
 
                             <AutoCompleteTextView
-                                android:id="@+id/auto_compelete_textview"
+                                android:id="@+id/auto_compelete_textview1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:inputType="none"
