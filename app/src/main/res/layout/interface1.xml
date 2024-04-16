@@ -38,19 +38,18 @@
         android:rotation="180"
         app:srcCompat="@drawable/_495457"
         tools:layout_editor_absoluteX="-66dp"
-        tools:layout_editor_absoluteY="626dp" />
+        tools:layout_editor_absoluteY="641dp" />
 
     <Button
         android:id="@+id/sign"
         android:layout_width="222dp"
         android:layout_height="46dp"
-        android:background="@drawable/button_background_blue"
         android:text="Let's start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779" />
+        app:layout_constraintVertical_bias="0.685" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
