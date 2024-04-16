@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,7 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:background="">
 
 
             <RelativeLayout
@@ -44,8 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="-15dp"
-                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
                     android:src="@drawable/ic_login_hero" />
 
             </RelativeLayout>
@@ -55,8 +56,9 @@
                 android:layout_height="524dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="40dp"
-                app:cardBackgroundColor="@color/whiteTextColor"
-                app:cardCornerRadius="10dp">
+                android:background="@drawable/banner_background"
+                app:cardCornerRadius="10dp"
+                >
 
                 <LinearLayout
                     android:layout_width="374dp"
@@ -117,7 +119,6 @@
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/niveau"
-                            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -138,7 +139,7 @@
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/type"
-                            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
@@ -147,8 +148,8 @@
 
                             <AutoCompleteTextView
                                 android:id="@+id/auto_compelete_textview"
-                                android:layout_width="146dp"
-                                android:layout_height="55dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
                                 android:inputType="none"
                                 android:text="Type" />
                         </com.google.android.material.textfield.TextInputLayout>
@@ -159,19 +160,22 @@
                         android:id="@+id/button2"
                         android:layout_width="282dp"
                         android:layout_height="50dp"
-                        android:layout_marginTop="10dp"
                         android:layout_gravity="center_horizontal"
-                        android:text="Register" />
+                        android:layout_marginTop="10dp"
+                        android:background="#8159E6"
+
+                        android:text="Register"
+                        tools:background="@drawable/button_background_blue" />
 
                     <TextView
                         style="@style/parent"
                         android:layout_width="297dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
                         android:layout_marginTop="@dimen/loginViewsMargin"
                         android:onClick="onLoginClick"
                         android:text="Already have an account?"
                         android:textAlignment="center"
-                        android:layout_gravity="center_horizontal"
                         android:textColor="@color/colorAccent"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -235,3 +239,5 @@
         </LinearLayout>
     </ScrollView>
 
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

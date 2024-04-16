@@ -8,7 +8,7 @@
     android:background="@color/cardview_light_background"
     android:focusableInTouchMode="true"
     android:gravity="center"
-    tools:context="com.appsnipp.modernlogin.LoginActivity">
+    tools:context="com.example.projetfedere.ui.dash">
 
     <ScrollView
         android:layout_width="411dp"
@@ -103,10 +103,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/loginViewsMargin"
                 android:width="4dp"
-                android:text="Login"
-                app:initialCornerAngle="27dp"
-                app:spinning_bar_color="#FFF"
-                app:spinning_bar_padding="6dp" />
+                android:text="Login" />
+
 
 
             <TextView
@@ -117,7 +115,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent"
                 android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -188,6 +187,7 @@
         android:src="@drawable/ic_add_img"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="30dp"
-        android:onClick="onLoginClick"/>
+        android:onClick="onLoginClick"
+        tools:ignore="OnClick" />
 
 </RelativeLayout>
