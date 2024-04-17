@@ -47,36 +47,19 @@
                     android:src="@drawable/ic_register_hero" />
             </RelativeLayout>
 
-            <TextView
-                android:id="@+id/textView2"
-                style="@style/parent"
-                android:layout_width="match_parent"
-                android:layout_height="32dp"
-                android:text="Email"
-                android:textColor="@color/colorAccent" />
-
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/email"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
                 android:layout_height="54dp"
                 android:backgroundTint="@color/colorAccent"
                 android:ems="10"
-                android:hint="@string/login_email_hint"
+                android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1" />
 
-            <TextView
-                android:id="@+id/textView3"
-                style="@style/parent"
-                android:layout_width="match_parent"
-                android:layout_height="34dp"
-                android:layout_marginTop="@dimen/loginViewsMargin"
-                android:text="Password"
-                android:textColor="@color/colorAccent" />
-
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/password"
                 style="@style/modifiedEditText"
                 android:layout_width="match_parent"
                 android:layout_height="67dp"
@@ -96,7 +79,7 @@
                 android:textSize="@dimen/newsMoreTextSize" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/login"
                 style="@style/loginButton"
                 android:layout_width="222dp"
                 android:layout_height="wrap_content"
@@ -105,7 +88,15 @@
                 android:width="4dp"
                 android:text="Login" />
 
-
+            <Button
+                android:id="@+id/into"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:width="4dp"
+                android:text="sign in"/>
 
             <TextView
                 style="@style/parent"

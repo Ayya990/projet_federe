@@ -67,7 +67,7 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editTextName"
+                        android:id="@+id/name"
                         style="@style/modifiedEditText"
                         android:layout_height="67dp"
                         android:backgroundTint="@color/colorAccent"
@@ -76,7 +76,7 @@
                         android:maxLines="1" />
 
                     <EditText
-                        android:id="@+id/editTextEmail"
+                        android:id="@+id/email1"
                         style="@style/modifiedEditText"
                         android:layout_height="63dp"
                         android:backgroundTint="@color/colorAccent"
@@ -85,7 +85,7 @@
                         android:maxLines="1" />
 
                     <EditText
-                        android:id="@+id/editTextMobile"
+                        android:id="@+id/number"
                         style="@style/modifiedEditText"
                         android:layout_height="65dp"
                         android:backgroundTint="@color/colorAccent"
@@ -94,7 +94,7 @@
                         android:maxLines="1" />
 
                     <EditText
-                        android:id="@+id/editTextPassword"
+                        android:id="@+id/psswd"
                         style="@style/modifiedEditText"
                         android:layout_height="50dp"
                         android:backgroundTint="@color/colorAccent"
@@ -103,7 +103,7 @@
                         android:maxLines="1" />
 
                     <EditText
-                        android:id="@+id/editTextDate"
+                        android:id="@+id/date"
                         android:layout_width="match_parent"
                         android:layout_height="58dp"
                         android:backgroundTint="@color/colorAccent"
@@ -129,7 +129,7 @@
                             app:layout_constraintVertical_bias="0.536">
 
                             <AutoCompleteTextView
-                                android:id="@+id/auto_compelete_textview2"
+                                android:id="@+id/niv"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:inputType="none"
@@ -147,7 +147,7 @@
                             tools:layout_editor_absoluteY="138dp">
 
                             <AutoCompleteTextView
-                                android:id="@+id/auto_compelete_textview1"
+                                android:id="@+id/type1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:inputType="none"
@@ -157,7 +157,7 @@
 
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btn"
                         android:layout_width="282dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
