@@ -13,18 +13,6 @@
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="67dp" />
 
-    <Button
-        android:id="@+id/sign"
-        android:layout_width="222dp"
-        android:layout_height="46dp"
-        android:text="Let's start"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="376dp"
@@ -32,8 +20,8 @@
         android:text="Elevate your learning experience."
         android:textSize="34dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="420dp" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -50,6 +38,18 @@
         android:rotation="180"
         app:srcCompat="@drawable/_495457"
         tools:layout_editor_absoluteX="-66dp"
-        tools:layout_editor_absoluteY="521dp" />
+        tools:layout_editor_absoluteY="641dp" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="222dp"
+        android:layout_height="46dp"
+        android:text="Let's start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
